@@ -13,7 +13,7 @@ const initialState: OrderState = {
   order: null,
   error: null
 };
-
+export const initialOrderState = initialState;
 export const getOrderThunk = createAsyncThunk(
   'feed/getOrder',
   (number: number) => getOrderByNumberApi(number)

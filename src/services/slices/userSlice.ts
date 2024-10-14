@@ -26,7 +26,7 @@ const initialState: UserState = {
   isAuthorized: false,
   error: null
 };
-
+export const initialUserState = initialState;
 export const loginUserThunk = createAsyncThunk(
   'user/login',
   (loginData: TLoginData) => loginUserApi(loginData)

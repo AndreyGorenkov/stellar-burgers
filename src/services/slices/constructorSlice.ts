@@ -119,3 +119,5 @@ export const {
 export const { getConstructorSelector } = constructorSlice.selectors;
 
 export default constructorSlice.reducer;
+
+export const initialConstructorState = initialState;

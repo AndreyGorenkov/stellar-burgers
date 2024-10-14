@@ -13,7 +13,7 @@ const initialState: ingredientsState = {
   ingredients: [],
   error: null
 };
-
+export const initialIngredientsState = initialState;
 export const getIngredientsThunk = createAsyncThunk(
   'ingredients/get',
   getIngredientsApi
